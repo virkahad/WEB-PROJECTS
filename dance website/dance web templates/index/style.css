@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: ; */
+
+}
+
+:root {
+    --color: rgba(19, 18, 20, 0.495);
+    --secolor: rgb(255, 255, 255);
+
+
+}
+
+body {
+    font-family: Chewy;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: var(--color);
+    opacity: 3;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+    margin-left: 7vw;
+    color: var(--secolor);
+    font-size: 4vh;
+}
+
+.img img {
+    filter: invert(100%);
+    width: 7vw;
+
+}
+
+.sec1 {
+    height: 50vh;
+    color: var(--secolor);
+}
+
+.sec1::before {
+    content: "";
+    background-image: url("main.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 78vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 5;
+}
+
+.heading {
+    margin: 11vh 0;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 8vh;
+    font-family: Gluten;
+}
+
+.anhead {
+    margin: 5vh 0;
+}
+
+.anhead h1 {
+
+    font-size: 5vh;
+}
+
+.cards {
+    display: flex;
+    margin: 5vh 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card {
+    margin: 0 6vh;
+    box-shadow: 3px 3px 9px rgb(82, 69, 69);
+    border-radius: 6px;
+}
+
+
+.img1 img {
+    width: 16vw;
+}
+
+.img2 img {
+    width: 16vw;
+}
+
+.img3 img {
+    width: 16vw;
+}
+
+.sec3 h1 {
+    text-align: center;
+    margin-top: 7vh;
+    padding: 7vh;
+    font-size: 7vh;
+}
+
+.sec4 h1 {
+    text-align: center;
+    margin-top: 7vh;
+    padding: 2vh;
+    font-size: 7vh;
+    /* color: white; */
+}
+
+.sec4 h2 {
+    text-align: center;
+    /* color: white; */
+}
+
+.sec3 h2 {
+    font-size: 5vh;
+    text-align: center;
+}
+
+.secmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cel {
+    margin: 2vh 6vw;
+}
+
+.chr img {
+    border-radius: 100%;
+}
+
+.sec4::before {
+    background-image: url("dance.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    background-position: center center;
+    width: 100vw;
+    height: 80vh;
+    z-index: -1;
+    opacity: .6;
+
+}
+
+.img5 img {
+    margin: 1vw 5vw;
+    border-radius: 10%;
+}
+
+.foot {
+    background-color: var(--color);
+    color: var(--secolor);
+}
+
+.foot h1 {
+    text-align: center;
+}

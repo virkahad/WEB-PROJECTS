@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Spotify - Web Player: Music for everyone'</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" sizes="32x32" type="image/png"
+    href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="left ">
+                <div class="box1 style">
+                    <div class="helll flex">
+                        <img src="logo.svg " class="invert" alt="logo">
+                        <img src="close.svg"  class="close invert" alt="">
+                    </div>
+                    <div class="home flex items width">
+                        <img src="home.svg" class="invert" alt="home">
+                        <div class="text bold">Home</div>
+                    </div>
+                    <div class="search flex items width">
+                        <img src="search.svg" class="invert" alt="search">
+                        <div class="text">Search</div>
+                    </div>
+                </div>
+
+                <div class="box2 style">
+                    <div class="libra flex items">
+                        <div class="group1 flex items">
+                            <img src="libraryicn.svg" class="invert" alt="dafa ho">
+                            <div class="text bold">Your Library</div>
+                        </div>
+                        <div class="group2">
+                            <h2>&plus;</h2>
+                        </div>
+                    </div>
+                    <div class="songlist">
+
+                        <ul>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <header>
+                    <nav>
+                        <div class="firs group1 flex items">
+                            <div class="h group1 flex items">
+                                <div class="hamburger">
+                                    <img class="invert" src="hamburger.svg" alt="">
+                                </div>
+                                <h2>&lt;</h2>
+                                <h2>&gt;</h2>
+
+                            </div>
+                            <div class="sec flex items">
+                                <div class="sigin">
+                                    <button>Sign up</button>
+                                </div>
+                                <div class="login">
+                                    <button>Log in</button>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+
+
+
+
+
+                <div class="cardcont style">
+                    <div class="anc"><h2>Spotify playlists</h2></div>
+                    <div class="cardcontainer">
+                        
+
+                    </div>
+
+                </div>
+
+                <div class="flex2">
+                    <div class="playy">
+                        <div class="songname">
+
+                        </div>
+                        <div class="icons">
+                            <img class="invert pointer" id="previous" src="previous.svg" alt="">
+                            <img class="invert pointer" id="play" src="plbut.svg" alt="">
+                            <img class="invert pointer" id="next" src="next.svg" alt="">
+
+                        </div>
+                        <div class="adjustforvol">
+                            <div class="songtime"></div>
+                            <img id="volum" class="invert vol" src="vol.svg" alt="">
+                            <input class="range pointer" type="range" name="volume">
+                        </div>
+                    </div>
+                    <div class="seekbar pointer">
+                        <div class="circle ">
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <script src="script1.js"></script>
+</body>
+
+</html>

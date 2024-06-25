@@ -1,0 +1,29 @@
+.border{
+    border: 3px solid red;
+}
+.flex{
+    display: flex;
+}
+.just{
+    justify-content: center;
+}
+.items{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.bold{
+    font-weight: bold;
+}
+.style{
+    background-color: #222121;
+    border-radius: 2px;
+}
+.width{
+    width: 100vw;
+}
+.pointer{
+    cursor: pointer;
+}
+  

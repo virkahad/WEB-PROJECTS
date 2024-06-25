@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.maincont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   width:100vw
+}
+
+
+main {
+    width: 80vw;
+    /* height: 100vh; */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+
+    height: 21vh;
+}
+
+.img img {
+    /* width: 7vw; */
+    object-fit: cover;
+}
+
+ul {
+    display: flex;
+    margin-left: 60px;
+    gap: 23px;
+
+
+}
+
+ul li {
+    list-style: none;
+    padding: 8px;
+    font-size: 3.5vh;
+    cursor: pointer;
+    /* font-weight: bolder; */
+    font-weight: 200;
+
+}
+
+ul li a:hover {
+    color: chocolate;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+}
+
+.nd {
+    padding: 5vw;
+}
+
+.input input {
+    height: 5vh;
+    width: 12vw;
+    border-radius: 6px;
+    padding-left: 16px;
+    font-size: 2.2vh;
+
+}
+
+.btn button {
+    margin-left: 15px;
+    height: 5vh;
+    width: 6vw;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 2.2vh;
+}
+
+.btn button:hover {
+    background-color: chocolate;
+    color: white;
+}
+
+.secondcont {
+    height: 63vh;
+
+}
+
+.secondcont::after {
+    background-image: url(/img/11.res.haha.png);
+    background-repeat: no-repeat;
+    content: "";
+    height: 66vh;
+    width: 79.6vw;
+    position: absolute;
+    background-size: 100vw 100vh;
+    background-position: -31px -50px;
+    top: 11vw;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.wrap {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+   margin: auto;
+}
+
+.left img {
+    width: 23vw;
+    height: 27vw;
+    border-radius: 50%;
+    height: 25vw;
+    border: 2px solid black;
+    object-fit: cover;
+
+}
+
+.right {
+    margin-left: 10px;
+    width: 48vw;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.right h1{
+    font-size: 3vw;
+}
+
+.right p {
+    line-height: 3vw;
+}
+
+.adjust {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.thirdcont {
+    /* height: 100vh; */
+    background-color: #FBF7F7;
+}
+
+.haed {
+    padding: 26px;
+}
+
+.card {
+    padding: 10px 30px;
+    display: flex;
+
+}
+
+.card img {
+    width: 22vw;
+    object-fit: cover;
+    height: 16vw;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    gap: 1vw;
+}
+
+.firstcard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 87px;
+}
+
+.time label {
+    font-weight: bold;
+    font-size: 3.5vh;
+}
+
+.foot {
+    width: 98vw;
+    height: 10vh;
+    background-color: chocolate;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width: 1100px) {
+.secondcont::after{
+    top: 32vw;
+}
+    main{
+        width: 100vw;
+    }
+    .secondcont::after{
+        width: 100vw;
+    }
+    .foot{
+        width: 100vw;
+    }
+   nav{
+    width: 100vw;
+   }
+   .left img{
+    display: none;
+   }
+   .right{
+    width: 100%;
+}
+.right p{
+    font-size: 2vh;
+}
+
+}
+@media screen and (max-width: 950px) {
+   .nd{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+   }
+   .input input{
+    width: 24vw;
+   }
+   .btn button{
+    width: 10vw;
+    
+   }
+   .img img{
+    width: 11vw;
+   }
+   .img img{
+    display: none;
+}
+  }
+  @media screen and (max-width: 500px) {
+    hr{
+        display: none;
+    }
+    .nd{
+        display: none;
+    }
+    .secondcont img{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+    .right h1{
+        font-size: 6vw;
+    }
+    .right p{
+        line-height: 5vw;
+    }
+    ul{
+        margin-left: auto;
+        }
+    
+        .card{
+            flex-direction: column;
+        }
+        .card img{
+            width: 80vw;
+        }
+        .time{
+            display: none;
+        }
+  }
+

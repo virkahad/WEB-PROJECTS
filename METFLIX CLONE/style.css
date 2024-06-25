@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+   font-family:  "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+body{
+    background-color: black;
+    z-index: 1;
+}
+header{
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container::before{
+    content: "";
+    background-image: url(mainbac.jpg);
+    background-position: 59px -229px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 116vw;
+    background-size: cover;
+    opacity: .4;
+    z-index: -3;
+}
+header svg{
+    height: 6vh;
+    margin-right: 79vw;
+    position: absolute;
+    top: 22px;
+    z-index: 2;
+    fill: red;
+}
+.btn{
+    background-color: rgb(188, 19, 19);
+    height: 5vh;
+    width: 5.5vw;
+    border-radius: 5px;
+    font-size: 2vh;
+    font-weight: bold;
+    margin-right: 190px;
+    position: absolute;
+    cursor: pointer;
+    
+}
+ .btn:hover{
+    background-color:rgb(141, 19, 19); 
+ }
+ .btn2:hover{
+    background-color:rgb(141, 19, 19);    
+ }
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 26vh;
+}
+
+.heading h1{
+    font-size: 8vh;
+    font-weight: 900;
+    text-align: center;
+
+}
+.heading h5{
+    font-size: 4vh;
+    font-weight: 500;
+    margin: 1rem 0 0;
+    text-align: center;
+}
+form{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp{
+    height: 3vh;
+    width: 20vw;
+    background-color: rgba(49, 44, 44, 0.888);
+    padding: 1.5rem 1rem 0.5rem;
+ margin-right:13px ;
+    border-radius: 3px;
+
+}
+.btn2{
+    height: 8vh;
+    width: 12vw;
+    background-color:red;
+    /* color: white; */
+    font-weight: bold;
+    font-size: 3vh;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.line{
+    width: 100vw;
+    height: 1vh;
+    background-color: rgb(54, 52, 52);
+    position: absolute;
+    top: 100vh;
+}
+ .container2{
+    width: 100vw;
+    margin-top: 56vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.main{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.secon{
+    width: 36vw;
+    height: 480px;
+}
+
+.first h1{
+    font-size: 7vh;
+    font-weight: bold;
+}
+.first h4{
+    margin-top: 6px;
+    font-size: 4vh;
+
+}
+.first h3{
+    font-size: 4vh;
+
+}
+.secon video{
+    z-index: -1;
+    position: relative;
+    bottom: 386px;
+    left: 69px;
+}
+.line2{
+    width: 100vw;
+    height: 1vh;
+    background-color: rgb(54, 52, 52);
+}
+
+
+ 
+.cont{
+    width: 86vw;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.set{
+    height: 95vh;
+}
+.forth{
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.ha{
+    margin-top: 4vh;
+}
+.ha h4{
+    font-size: 4vh;
+}
+.he h1{
+    font-size: 7vh;
+    font-weight: bold;
+}
+.h1 h1{
+    font-size: 7vh;
+    font-weight: bold;
+}
+.par h4{
+    
+    font-size: 4vh;
+}
+.contai{
+    position: relative;
+    width: 60vw;
+    left: 26vw;
+}
+.conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 81vh;
+}
+.textf h1{
+    font-size: 7vh;
+    font-weight: bold;
+}
+.textf h4{
+    font-size: 4vh;
+}
+.kidimg{
+    margin-top: 4vh;
+}
+.sixth h1{
+    font-size: 7vh;
+    font-weight: bold;
+    margin: 7vh 0;
+}
+
+.sixth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sixth h4{
+    font-size: 3vh;
+    margin: 4vh 0;
+
+}
+#conf{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 52, 52);
+    height: 10vh;
+    margin: 0.7vh 0;
+    cursor: pointer;
+}
+#conf h4{
+    font-size: 4vh;
+}
+.text{
+    font-size: 4vh;
+    margin-left: 2vw;
+}
+.sign{
+    margin-right:2vw ;
+    font-size: 5vh;
+}
+#conf:hover{
+    background-color: rgb(96, 89, 89);
+}
+.lastp{
+    margin-bottom: 7vh;
+}
+.seventh{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.seventh a{
+    color: rgb(170, 170, 170);
+    display: block;
+    font-size: 2.5vh;
+    margin: 4vh 0;
+}
+.spa{
+    margin: 4vh 0;
+}
+
+
+

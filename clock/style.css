@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    /* background-image: url("clock.png"); */
+}
+.main::before{
+    background-image: url("clock.png");
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 390px;
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.img{
+    width:21vw;
+    z-index: 1;
+}
+.hourshandle{
+    height: 13vh;
+    background-color: black;
+    width: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    top: 2vh;
+    left: 3px;
+    z-index: 1;
+    transform: rotate(0deg);
+    transform-origin: 70% 106%;
+
+}
+
+.minuteshandle{
+    height: 15vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 8px;
+    position: relative;
+    z-index: 2;
+    top: 1vh;
+    left: -5px;
+    rotate: 0deg;
+    transform-origin: 70% 103%;
+
+
+}
+.seconds{
+    height: 18vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 4px;
+    position: relative;
+    z-index: 2;
+    top: 1vh;
+    left: -10px;
+    rotate: 0deg;
+    transform-origin: 70% 103%;
+}

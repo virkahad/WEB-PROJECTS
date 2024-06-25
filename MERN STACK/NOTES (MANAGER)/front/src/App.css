@@ -1,0 +1,11 @@
+.editform{
+    z-index: 4;
+    position: absolute;
+    top: -350px;
+    left: 33vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: all 0.1s ease-in ;
+    
+   /* width: 40%; */
+}

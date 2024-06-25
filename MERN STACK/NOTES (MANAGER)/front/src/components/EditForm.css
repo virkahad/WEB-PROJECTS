@@ -1,0 +1,41 @@
+.component{
+  
+}
+.Editform{
+
+
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px; 
+}
+.submitbtn{
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    background: white;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: medium;
+    margin-top: 4vh;
+}
+
+.inp{
+    width: 60%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 5px ;
+}
+.icon{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.icon i{
+    cursor: pointer;
+}
